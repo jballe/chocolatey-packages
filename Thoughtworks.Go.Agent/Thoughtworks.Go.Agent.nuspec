@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Thoughtworks.Go.Agent</id>
+    <title>Thoughtworks.Go.Agent</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Thoughtworks</authors>
+    <owners>jballe</owners>
+    <summary>Build agent for Thoughtworks GO (Continous delivery)</summary>
+    <description>
+		Consider providing address of build server using install arguments, eg.
+		  -ia '/SERVERIP=[ip of go server]'
+	
+	</description>
+    <projectUrl>http://www.go.cd/</projectUrl>
+    <tags>Thoughtworks.Go cd ContinouslyDelivery</tags>
+    <copyright></copyright>
+    <licenseUrl>https://raw.githubusercontent.com/gocd/gocd/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.go.cd/images/logo-go-home_2014.png</iconUrl>
+    <dependencies>
+      <dependency id="javaruntime" version="7.0.67" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
