@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Thoughtworks.Go.Server</id>
-    <title>Thoughtworks.Go.Server</title>
+    <id>thoughtworks.go.server</id>
+    <title>Thoughtworks Go Server</title>
     <version>{{PackageVersion}}</version>
     <authors>Thoughtworks</authors>
     <owners>jballe</owners>
-    <summary>Thoughtworks.Go.Server</summary>
+    <summary>Server for Thoughtworks GO, a build server and continously delivery system</summary>
     <description>Thoughtworks.Go.Server</description>
     <projectUrl>http://www.go.cd/</projectUrl>
     <tags>Thoughtworks.Go cd ContinouslyDelivery</tags>
