@@ -1,4 +1,4 @@
-﻿$namne = "Go Agent"
+﻿$name = "Go Agent"
 
 $node = Get-ItemProperty "registry::HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ThoughtWorks Studios\$name" -ErrorAction SilentlyContinue
 if($node -eq $null) {

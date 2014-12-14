@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Thoughtworks.Go.Agent</id>
+    <id>thoughtworks.go.agent</id>
     <title>Thoughtworks.Go.Agent</title>
     <version>{{PackageVersion}}</version>
     <authors>Thoughtworks</authors>
     <owners>jballe</owners>
-    <summary>Build agent for Thoughtworks GO (Continous delivery)</summary>
+    <summary>Build agent for Thoughtworks GO, a build server and continously delivery system</summary>
     <description>
 		Consider providing address of build server using install arguments, eg.
 		  -ia '/SERVERIP=[ip of go server]'
