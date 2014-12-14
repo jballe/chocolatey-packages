@@ -3,9 +3,13 @@
 if($file -eq $null) {
     $file = "go-server-14.3.0-1186-setup.exe";
 }
-$basepath = "http://download.go.cd/gocd/"
 
-$appname = $env:GO_PIPLINE_NAME;
+$basepath = $env:GO_REPO_GO_SERVER_BASEPATH;
+if($basepath -eq $null) {
+    $basepath = "http://download.go.cd/gocd/"
+}
+
+$appname = $env:AppName;
 if($appname -eq $null) {
     $appname = "Thoughtworks.Go.Server"
 }
